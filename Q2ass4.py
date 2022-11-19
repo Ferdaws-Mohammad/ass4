@@ -1,10 +1,10 @@
 n1=input('enter the first number')
-if n1.isdigit():
+if n1.isdecimal():
 
     print('\n 1_+','\n 2_-''\n 3_*','\n 4_/','\n 5_^','\n 6_%')
     proces=input('enter the proces')
     n2= input('enter the second number')
-    if n2.isdigit():
+    if n2.isdecimal():
         n1 = float(n1)
         n2=float(n2)
         if '+' ==proces or '1' in proces:
