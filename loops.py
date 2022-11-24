@@ -8,11 +8,13 @@ for item in numbers:
     if item%5==0:
         print(item)
 #2.disbly meesage done
-if True:
-   for i in range(5):
+
+for i in range (5):
     print(i)
-   else:
-        print('Done')
+if false:
+   print('not Done')
+else:
+     print ('done!')
 #3. reverse integer number
 
 n=76542
