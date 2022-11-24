@@ -19,7 +19,7 @@ else:
 n=76542
 r=0
 rev_nu=0
-while n!=0:
+while (n!=0):
     r=n%10
     rev_nu=rev_nu*10+r
     n=n/10
